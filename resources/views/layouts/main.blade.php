@@ -16,7 +16,8 @@
     <title>{{ config('main.siteTitle') }}</title>
 </head>
 <body>
-    
+    @include('common.header')
+
     @yield('content', 'No content loaded')
 
     {{-- 

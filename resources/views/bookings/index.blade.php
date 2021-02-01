@@ -24,6 +24,7 @@
                 <td>{{ $info->to_date }}</td>
                 <td>
                     <a href="{{ route('bookings.show', $info->id) }}">Maggiori dettagli</a>
+                    <a href="{{ route('bookings.edit', $info->id) }}">Modifica</a>
                 </td>
             </tr>
             @endforeach
